@@ -1,0 +1,121 @@
+#parent{
+border: 2px solid rgb(247, 247, 247);
+height: 71vh;
+width: 95vw;
+margin-top: 90px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+#image{
+    border: 2px solid rgb(247, 247, 247);
+    height: 60vh;
+    width: 38vw;
+    margin-bottom: 100px;
+
+}
+#textdiv{
+    border: 2px solid rgb(247, 247, 247);
+    height: 60vh;
+    width: 38vw;
+}
+#iphone{
+    width: 38vw;
+    height: 60vh;
+}
+#text{
+    font-family: cursive;
+    color: rgb(202, 126, 140);
+    text-align:start;
+    
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+#main_heading{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(177, 123, 132);
+}
+#sub_heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(78, 75, 75);
+}
+#timer{
+
+    width: 38vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#t{
+    height:13vh;
+    width: 8vw;
+    border-radius: 10px;
+    background-color: rgb(177, 123, 132);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dd, #hrd, #mind, #secd{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    height: 13vh;
+
+}
+#day_no, #hr_no, #min_no, #sec_no{
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    position: relative;
+    bottom: 20px;
+    color:  rgb(247, 247, 247);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    
+}
+#day_text, #hr_text, #min_text, #sec_text{
+    font-size: 15px;
+    position: relative;
+    bottom: 50px;
+    color:  rgb(247, 247, 247);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+@media screen and (max-width:765px) {
+    #parent{
+    flex-direction:column ;
+    height: 200vh;
+    justify-content: space-aroud;
+        
+    }
+    #textdiv{
+    height: 90vh;
+    display: block;
+    width: 85vw;
+    }
+    #iphone{
+        display: block;
+        width: 80vw;
+        height: 75vh;
+        
+    }
+    #image{
+        margin-right: 120px;
+        margin-left: 70px;
+        margin-top: 65px;
+        width:75vw ;
+        height: 65vh;
+    }
+    #t{
+        width: 15vw;
+    }
+    #timer{
+        width:80vw ;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
